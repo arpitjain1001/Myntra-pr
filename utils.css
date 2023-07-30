@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+    list-style: none;
+    height: 30px;
+}
+ .items-center{
+    align-items: center;/*isse jo h myntra ka logo center mae aa jaega*/
+ }
+/* .justify-center{
+
+} */
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+header{
+    position: sticky;/*jo header h ab vo hilega nhi apn ne usko sticky kr diya*/
+    top: 0;
+    background-color: white;
+}
