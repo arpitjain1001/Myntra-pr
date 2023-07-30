@@ -35,11 +35,12 @@ nav ul li{
 nav ul li:hover{
     color: red;
     cursor: pointer;
+    text-decoration: underline;
+    font-size: large;
 }
 .right{
     margin-left: 200px;
     margin-top: 14px;
-   
   
     cursor: pointer;
     align-items: center;
@@ -47,4 +48,20 @@ nav ul li:hover{
 .section1{
     background-color:#f5f0f0;
     height: 122vh;
+}
+.search{
+    padding: 3px;
+    width: 250px;
+    background-color: rgb(229 229 243);
+    border: 2px solid gray;
+}
+.button{
+    background-color: rgb(229 229 243);
+    border: 2px solid gray;
+    padding: 3px;
+    width: 70px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: blue;
 }

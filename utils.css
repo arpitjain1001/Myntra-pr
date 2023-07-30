@@ -17,4 +17,23 @@ header{
     position: sticky;/*jo header h ab vo hilega nhi apn ne usko sticky kr diya*/
     top: 0;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+.homeimg{
+    width: 100%;
+    border-radius: 25px;
+    
+ 
+}
+.newimg{
+    height: 250px;
+    width: 1200px;
+    border: 9px solid red;
+    margin-bottom: 900px;
+ 
+}
+.vegeimg{
+    width: 50%;
+    height: 100%;
+    /* margin-top: 20%; */
 }
