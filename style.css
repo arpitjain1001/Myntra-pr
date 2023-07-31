@@ -33,13 +33,16 @@ nav ul li{
 
 }
 nav ul li:hover{
-    color: red;
     cursor: pointer;
-    text-decoration: underline;
     font-size: large;
+    background-color: blue;
+    border-radius: 15px;
+
+  
+    
 }
 .right{
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 14px;
   
     cursor: pointer;
@@ -51,7 +54,7 @@ nav ul li:hover{
 }
 .search{
     padding: 3px;
-    width: 250px;
+    width: 300px;
     background-color: rgb(229 229 243);
     border: 2px solid gray;
 }
@@ -68,6 +71,83 @@ nav ul li:hover{
 footer{
     padding: 23px;
     text-align: center;
-    color: black;
-    margin-top: 1300px;
+    color: white;
+    margin-top: 1500px;
+    background-color: black;
+    height: 550px;
+    bottom: 0px;
+    width: 3300px;
+}
+.low a{
+   text-decoration: none;
+    margin-right: 2800px;
+    cursor: pointer;
+    color: white;
+  
+}
+.low a:hover{
+    /* background-color: red; */
+    color: chartreuse;
+}
+.low h1 a{
+    font-size: 20px;
+    padding: 20px;
+    color: blue;
+    cursor: pointer;
+    
+}
+.mid{
+    margin-top: 40px;
+}
+.mid a{
+    text-decoration: none;
+    padding: 25px;
+    /* margin-bottom: 20px; */
+    color: white;
+    cursor: pointer;
+    margin-right: 2800px;
+  
+}
+.mid h1 a{
+    font-size: 20px;
+    padding: 20px;
+    color: blue;
+    cursor: pointer;
+}
+.mid a:hover{
+    /* background-color: red; */
+    color: chartreuse;
+}
+.right{
+   margin-right: 2000px;
+}
+.right h1 a{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.image{
+    border: red;
+    margin-bottom: 100px;
+    
+}
+.profile{
+    font-weight: bold;
+    
+    
+}
+.wishlist{
+    font-weight: bold;
+   
+    
+}
+.bag{
+    font-weight: bold;
+   
+    
+}
+.right div{
+    padding-left: 50px;
 }
