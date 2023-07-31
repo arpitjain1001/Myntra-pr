@@ -1,5 +1,7 @@
 body{
     background-color: white;
+    width: 100%;
+    height: 50%;
     font-family: 'Times New Roman', Times, serif;
 }
 *{
@@ -14,8 +16,8 @@ body{
 
 .container{
     min-width: 20vw;
-    margin: 13px 0;
-    background-color: white;
+    margin: 5px 0;
+    background-color: #d9d6d6;;
     color: black;
     padding: 0px 10vw;
     height: 50px;
@@ -35,7 +37,7 @@ nav ul li{
 nav ul li:hover{
     cursor: pointer;
     font-size: large;
-    background-color: blue;
+    background-color: rgb(241, 241, 224);
     border-radius: 15px;
 
   
@@ -72,15 +74,15 @@ footer{
     padding: 23px;
     text-align: center;
     color: white;
-    margin-top: 1500px;
+    margin-top: 1570px;
     background-color: black;
-    height: 550px;
+    height: 400px;
     bottom: 0px;
-    width: 3300px;
+    width: 3000px;
 }
 .low a{
    text-decoration: none;
-    margin-right: 2800px;
+    margin-right: 2700px;
     cursor: pointer;
     color: white;
   
@@ -98,6 +100,10 @@ footer{
 }
 .mid{
     margin-top: 40px;
+    /* margin-left: 5px; */
+    position: relative; 
+    left: 400px;
+    bottom:230px;
 }
 .mid a{
     text-decoration: none;
@@ -115,39 +121,49 @@ footer{
     cursor: pointer;
 }
 .mid a:hover{
-    /* background-color: red; */
     color: chartreuse;
 }
-.right{
-   margin-right: 2000px;
+.footright{
+   margin-right: 2200px;
+   position: relative; 
+   left: 450px; 
+   bottom:440px;
 }
-.right h1 a{
-    font-size: 15px;
+.footright h1 {
+    font-size: 20px;
     color: blue;
     cursor: pointer;
     text-decoration: none;
+}
+.footright h2{
+    color: blue;
+    padding: 10px;
+}
+.footright h1:hover{
+    color: chartreuse;
+}
+.footright h2:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+.footdown a{
+     text-decoration: none;
+     margin-right: 1500px;
+     cursor: pointer;
+     color: white;
+     position:relative ;
+     left: 450px; 
+    /* margin-bottom: 450px; */
+     bottom:615px;
 
-}
-.image{
-    border: red;
-    margin-bottom: 100px;
-    
-}
-.profile{
-    font-weight: bold;
-    
-    
-}
-.wishlist{
-    font-weight: bold;
    
-    
-}
-.bag{
-    font-weight: bold;
-   
-    
-}
-.right div{
-    padding-left: 50px;
-}
+ }
+ .footdown a:hover{ 
+     color: chartreuse;
+ }
+ .footdown h1 a{
+     font-size: 20px;
+     padding: 20px;
+     color: blue;
+     cursor: pointer;
+ }

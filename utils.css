@@ -18,6 +18,8 @@ header{
     top: 0;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    
+
 }
 .homeimg{
     width: 100%;
@@ -25,15 +27,15 @@ header{
 }
 .moreimg{
     width: 100%;
-    border-radius: 25px;
-    margin-top: 30px;
+    border-radius: 45px;
+    margin-top: 40px;
 }
 
 .newimg{
-    height: 250px;
+    height: 300px;
     width: 1200px;
     /* border: 9px solid red; */
-    margin-top: 735px;
+    margin-top: 695px;
     border-radius: 25px;
     /* border: 5px solid green; */
  
