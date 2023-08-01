@@ -77,6 +77,7 @@ footer{
     margin-top: 1570px;
     background-color: black;
     height: 400px;
+    position:static;
     bottom: 0px;
     width: 3000px;
 }
@@ -146,7 +147,31 @@ footer{
     color: chartreuse;
     cursor: pointer;
 }
-.footdown a{
+.last{
+    position:relative;
+    z-index: 10;
+    right: 300px; 
+    bottom:605px;
+    color:red;
+    font-size: 16px;
+}
+.last a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.last h1{
+    font-size: 17px;
+    color: blue;
+}
+.last a:hover{
+    color: chartreuse;
+}
+.last h1:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+/* .footdown a{
      text-decoration: none;
      margin-right: 1500px;
      cursor: pointer;
@@ -154,10 +179,10 @@ footer{
      position:relative ;
      left: 450px; 
     /* margin-bottom: 450px; */
-     bottom:615px;
+     /* bottom:615px; */
 
    
- }
+/*  
  .footdown a:hover{ 
      color: chartreuse;
  }
@@ -166,4 +191,4 @@ footer{
      padding: 20px;
      color: blue;
      cursor: pointer;
- }
+ }  */

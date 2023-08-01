@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra clone</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
+     {% load  static %}
+    <link rel="stylesheet" href= {% static "style.css"%}>
+    <link rel="stylesheet" href= {% static "utils.css"%}>
 </head>
 <body>
     <header class="container">
     <nav class="flex">
             <div class="left flex items-center">
                 <ul class="flex  items-center  justify-center">
-                <img src="images/logo.png" alt="Myntra"></li>
+                <img src="{% static 'images/logo.png' %}" alt="Myntra"></li>
                 <!-- <li>Mens</li> -->
                 <li>Mens</li>
                 <li>Womens</li>
@@ -27,7 +28,7 @@
                 <input class="search me-2"type="search" placeholder="Search products,brands and more" aria-label="Search">
                 <button class="button" type="submit">Search</button>
 
-             <div class="profile mx-2">Profile <a href="login.html"></a></div> 
+             <div class="profile mx-2"> <a href="{% url 'login' %}">Profile</a></div> 
 
              <div class="wishlist mx-2">Wishlist</div>   
              <div class="bag mx-2 ">Bag</div>   
@@ -37,36 +38,36 @@
     </nav>
 </header>
 <section class="container section1">
-  <img class="homeimg" src="images/edit.jpg">
-  <img class="homeimg" src="images/old5.jpg">
+  <img class="homeimg" src="{% static 'images/edit.jpg' %}">
+  <img class="homeimg" src="{% static 'images/old5.jpg' %}">
 
 
-  <img class="newimg" src="images/new1.jpg">
+  <img class="newimg" src="{% static 'images/new1.jpg' %}">
   
 
-  <img class="moreimg" src="images/more.jpg">
+  <img class="moreimg" src="{% static 'images/more.jpg' %}">
 
 </section>
 
 <section class="container section1 flex">
-    <img class="vegeimg" src="old/old1.jpg">
-    <img class="vegeimg" src="old/old2.jpg">
-    <img class="vegeimg" src="old/old3.jpg" style="width: 350px;">
-    <img class="vegeimg" src="old/old4.jpg" style="width: 350px;">
+    <img class="vegeimg" src="{% static 'old/old1.jpg' %}">
+    <img class="vegeimg" src="{% static 'old/old2.jpg' %}">
+    <img class="vegeimg" src="{% static 'old/old3.jpg' %}" style="width: 350px;">
+    <img class="vegeimg" src="{% static 'old/old4.jpg' %}" style="width: 350px;">
    
 </section>
 <section class="container section1 flex">
-    <img class="shopimg" src="add/add1.jpg">
-    <img class="shopimg" src="add/add2.jpg">
-    <img class="shopimg" src="add/add3.jpg">
-    <img class="shopimg" src="add/add4.jpg">
+    <img class="shopimg" src="{% static 'add/add1.jpg' %}">
+    <img class="shopimg" src="{% static 'add/add2.jpg' %}">
+    <img class="shopimg" src="{% static 'add/add3.jpg' %}">
+    <img class="shopimg" src="{% static 'add/add4.jpg' %}">
    
 </section>
 <section class="container section1 flex">
-    <img class="tagsimg" src="images/tag1.jpg">
-    <img class="tagsimg" src="images/tag1.jpg">
-    <img class="tagsimg" src="images/tag1.jpg">
-    <img class="tagsimg" src="images/tag1.jpg">
+    <img class="tagsimg" src="{% static 'images/tag1.jpg' %}">
+    <img class="tagsimg" src="{% static 'images/tag1.jpg' %}">
+    <img class="tagsimg" src="{% static 'images/tag1.jpg' %}">
+    <img class="tagsimg" src="{% static 'images/tag1.jpg' %}">
    
 </section>
 
@@ -122,27 +123,26 @@
 <div class="footright" >
 
 <h1>Experience myntra on mobile</h1>
-<a href=""><img src="images/unnamed.png"></a>
-<a href=""><img src="images/unnamed3.jpg" style="height: 45px;"></a>
+<a href=""><img src="{% static 'images/unnamed.png' %}"></a>
+<a href=""><img src="{% static 'images/unnamed3.jpg' %}" style="height: 45px;"></a>
 <h2> Keep in touch</h2>
-<img src="images/unnamed2.jpg " style="height:20px;" >
+<img src="{% static 'images/unnamed2.jpg' %}"style="height:20px;" >
 
 </div>
-<div class="footdown">
+<div class="last">
+
     <h1>
-        <a href="">Online shopping</a>
+       Useful Links
     </h1>
-   <a href="">Mens</a>
+   <a href="">Blog</a>
    <br>
-   <a href="">Womens</a>
+   <a href="">Careers</a>
    <br>
-   <a href="">Kids</a>
+   <a href="">Site map</a>
    <br>
-   <a href="">Home and Living</a>
+   <a href="">Corporate Information</a>
    <br>
-   <a href="">Beauty</a>
-   <br>
-   <a href="">Gifts cards</a>
+   <a href="">White hat</a>
    <br>
 </div>
 
