@@ -21,25 +21,25 @@ header{
     
 
 }
+
 .homeimg{
     width: 100%;
     border-radius: 40px;
 }
 .moreimg{
-    width: 100%;
+    width: 1200px;
     border-radius: 45px;
-    margin-top: 40px;
+    margin-top: 70px;
+    height: 600px;
 }
 
 .newimg{
-    height: 300px;
+    height: 200px;
     width: 1200px;
-    /* border: 9px solid red; */
-    margin-top: 695px;
+    margin-top: 765px;
     border-radius: 25px;
-    /* border: 5px solid green; */
- 
 }
+
 .vegeimg{
     width: 250px;
     height: 300px;
@@ -60,7 +60,9 @@ header{
     width: 300px;
     height: 70px;
     margin-top: 528px;
-    /* border: 5px solid black; */
-   
-    /* margin-top: 20%; */
 }
+
+
+
+
+    

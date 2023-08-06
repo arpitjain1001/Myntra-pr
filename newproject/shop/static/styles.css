@@ -11,14 +11,13 @@ body{
 .left img{
     margin-top: 14px;
     width: 53px;
-    /* height: 43px; */
 }
 
 .container{
-    min-width: 20vw;
+    min-width: 30vw;
     margin: 5px 0;
     background-color: #d9d6d6;;
-    color: black;
+    /* color: red; */
     padding: 0px 10vw;
     height: 50px;
 }
@@ -30,19 +29,21 @@ nav ul li{
     font-weight: bold;
     padding-top: 14px;
     
-    text-transform: uppercase;/*isse saare letters bde ho jaenge*/
+    text-transform: uppercase;
   
 
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
 }
 nav ul li:hover{
     cursor: pointer;
     font-size: large;
     background-color: rgb(241, 241, 224);
     border-radius: 15px;
-
-  
-    
 }
+
 .right{
     margin-left: 100px;
     margin-top: 14px;
@@ -56,19 +57,46 @@ nav ul li:hover{
 }
 .search{
     padding: 3px;
-    width: 300px;
+    width: 200px;
     background-color: rgb(229 229 243);
     border: 2px solid gray;
 }
-.button{
-    background-color: rgb(229 229 243);
+.button { 
+    color: black;
     border: 2px solid gray;
     padding: 3px;
     width: 70px;
     font-weight: bold;
 }
 .button:hover{
-    background-color: blue;
+    background-color: green;
+    cursor: pointer;
+}
+.logout a{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+
+    
+}
+.logout a:hover{
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    background-color: green;
+
+}
+.profile a{
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+.profile a:hover{
+    color: red;
+    font-size: large;
+    font-weight: bold;
 }
 footer{
     padding: 23px;
@@ -123,72 +151,38 @@ footer{
 }
 .mid a:hover{
     color: chartreuse;
+} 
+/* .footright{
+    right: 200px;
 }
-.footright{
-   margin-right: 2200px;
-   position: relative; 
-   left: 450px; 
-   bottom:440px;
-}
-.footright h1 {
-    font-size: 20px;
-    color: blue;
-    cursor: pointer;
-    text-decoration: none;
-}
-.footright h2{
-    color: blue;
-    padding: 10px;
-}
-.footright h1:hover{
-    color: chartreuse;
-}
-.footright h2:hover{
-    color: chartreuse;
-    cursor: pointer;
-}
-.last{
-    position:relative;
-    z-index: 10;
-    right: 300px; 
-    bottom:605px;
-    color:red;
-    font-size: 16px;
-}
-.last a{
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-}
-.last h1{
-    font-size: 17px;
-    color: blue;
-}
-.last a:hover{
-    color: chartreuse;
-}
-.last h1:hover{
-    color: chartreuse;
-    cursor: pointer;
-}
-/* .footdown a{
-     text-decoration: none;
-     margin-right: 1500px;
-     cursor: pointer;
-     color: white;
-     position:relative ;
-     left: 450px; 
-    /* margin-bottom: 450px; */
-     /* bottom:615px; */
+.footright h1{
+    color: red;
 
-   
-/*  
- .footdown a:hover{ 
-     color: chartreuse;
+} */
+.footright{
+    margin-right: 2200px;
+    position: relative; 
+    /* left: 450px; 
+    bottom:440px; */
+    left: 395px;
+    bottom: 175px;
  }
- .footdown h1 a{
+ .footright h1 {
      font-size: 20px;
-     padding: 20px;
      color: blue;
      cursor: pointer;
- }  */
+     text-decoration: none;
+     margin-right: 534px;
+ }
+ .footright h2{
+     color: blue;
+     padding: 10px;
+     margin-right: 577px;
+ }
+ .footright h1:hover{
+     color: chartreuse;
+ }
+ .footright h2:hover{
+     color: chartreuse;
+     cursor: pointer;
+ }
